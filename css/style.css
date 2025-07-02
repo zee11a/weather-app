@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: #1E202B;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+main {
+  flex: 1;
+}
+
+.search-section {
+  background-image: url(/img/banner.png);
+  background-position: center center;
+  
+  background-color: #2a2d3c;
+  padding: 30px 0;
+}
+
+.display-1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #323544;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+.card h5 {
+  color: #BFC1C8;
+}
+
+footer .social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+footer .social-icons a:hover {
+  color: #00BFFF;
+}
